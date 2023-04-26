@@ -9,7 +9,7 @@ The name of the term project is Bee Game (S23 scaffolded project). The game invo
 # How to run the project. For example, which file the user should run in an editor. If your project uses data/source files, also describe how the user should set those up.
 Download the tentativeTP3.py file. Decompress it. It has all the gifs and images needed to run the game.
 
-#Which libraries you're using that need to be installed, if any. If you can include the library in the submission, that is preferred.
+# Which libraries you're using that need to be installed, if any. If you can include the library in the submission, that is preferred.
 These are the following imports for the game: CMU_graphics, PIL (Image), math, random (time). All these imports are included in the game file.
 
 # A list of any shortcut commands that exist. 
