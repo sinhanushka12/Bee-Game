@@ -14,6 +14,7 @@ class player:
         self.typeOfBee = typeOfBee
         
         myGif = Image.open('images/giphy.gif')
+        # Bee Gif from: https://www.pinterest.com/pin/cute-animated-honey-bee-gifs-at-best-animations-clipart-best-clipart-best--673077106817108502/
 
         self.leftSpriteList = []
         self.rightSpriteList = []
@@ -375,6 +376,7 @@ def onAppStart(app):
     app.lastFlowerTime = time.time() 
     app.lastRockTime = time.time()
     app.image = Image.open('images/background2.png')
+    # Background image from: https://www.artstation.com/artwork/Vywl18
     app.image = CMUImage(app.image)
     app.score = 0
    
@@ -513,3 +515,22 @@ def main():
     runAppWithScreens(initialScreen='welcome', width = 800, height = 500)
 
 main()
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------
+# CITATIONS
+
+"""
+Bee Gif: 
+    https://giphy.com/explore/bee-sticker
+    Found the bee gif on the above mentioned website. Unable to pinpoint where I went on the website or what 
+    I searched for while looking for a bee gif. 
+Canvas Background: 
+    https://www.artstation.com/artwork/Vywl18
+Code Inspiration: 
+    For creating different screens, using OOP with animations, and working with GIFs: 
+        15-112 Lectures by Professor Taylor
+    S23 Scaffolded Project: Bee Game Google doc
+    CS Academy assignments
+
+"""
+# -----------------------------------------------------------------------------------------------------------------------------------------------
