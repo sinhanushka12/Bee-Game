@@ -1,6 +1,5 @@
-## Fundamentals of Programming and Computer Science
-
 # 15-112-Term-Project
+## Fundamentals of Programming and Computer Science
 Bee Game for 15-112 term project
 
 
