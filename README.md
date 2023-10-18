@@ -1,6 +1,6 @@
 # 15-112-Term-Project
-## Fundamentals of Programming and Computer Science
-Bee Game for 15-112 term project
+Fundamentals of Programming and Computer Science
+
 
 
 # A short description of the project's name and what it does. This may be taken from your design docs.
